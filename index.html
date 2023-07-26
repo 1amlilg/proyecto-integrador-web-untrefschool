@@ -5,115 +5,179 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UNTREF School</title>
+  <link rel="stylesheet" href="./css/normalize.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/master.css">
-  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./scss/master.css">
 </head>
 
 <body>
   <div class="container">
-    <header id="heading">
-      <div id="menu">
-        <nav id="options-container">
-          <a href="#article-content">Quienes Somos</a>
-          <a href="#article-content2">¿Porque elegirnos?</a>
-          <a href="#">Propuesta educativa</a>
-          <a href="#">Últimas noticias</a>
-          <a href="#">Contacto</a>
-        </nav>
-      </div>
-    </header>
-
-    <section id="banner">
-      <div id="content-banner">
-        <img src="" alt="Banner">
-        <h1 id="title">Untref School</h1i>
-          <a id="button" href="#">Contacto</a>
-      </div>
-    </section>
-    <main>
-    <section id="first-section">
-      <article id="article-content">
-        <h2>Quienes somos</h2>
-        <img src="" alt="article-image">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
-          inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
-          corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
-          temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
-          necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
-          voluptatum.</p>
-      </article>
-    </section>
-
-    <section id="second-section">
-      <article id="article-content2">
-        <h2>¿Porque elegirnos?</h2>
-        <img src="" alt="article-image">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
-          inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
-          corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
-          temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
-          necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
-          voluptatum.</p>
-      </article>
-    </section>
-
-
-    <div id="proposals">
-      <h2>Propuesta educativa</h2>
-      <section class="proposal">
-        <h3>Excelentes profesores</h3>
-        <div class="icons"></div>
-      </section>
-
-      <section class="proposal">
-        <h3>Excelentes profesores</h3>
-        <div class="icons"></div>
-      </section>
-
-      <section class="proposal">
-        <h3>Excelentes profesores</h3>
-        <div class="icons"></div>
-      </section>
-
-      <section class="proposal">
-        <h3>Excelentes profesores</h3>
-        <div class="icons"></div>
-      </section>
-    </div> <!-- === Cierre de .propuestas === -->
-
-    <div id="news-container"><h2>Últimas noticias</h2>
-    <section id="news">
-      <article class="news-article">
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque tempore nostrum aliquid obcaecati mollitia unde, quibusdam aperiam ducimus, quae eum officia ipsa necessitatibus ullam, quis maxime pariatur provident suscipit.</p>
-      </article>
-    </section>
-
-    <section id="news">
-      <article class="news-article">
-        <h3>Lorem ipsum</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque tempore nostrum aliquid obcaecati mollitia unde, quibusdam aperiam ducimus, quae eum officia ipsa necessitatibus ullam, quis maxime pariatur provident suscipit.</p>
-      </article>
-    </section>
+    <header id="mainheader">
+      <nav id="navbar">
+        <div class="container"></div>
+        <ul>
+          <li><a href="#about-us">Quienes Somos</a></li>
+          <li><a href="#why-choose-us">¿Porque elegirnos?</a></li>
+          <li><a href="#proposals">Propuesta educativa</a></li>
+          <li><a href="#last-news">Últimas noticias</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
   </div>
-  <!-- === Cierre de #news-container === -->
-</main>
+  </nav>
+  <div id="showcase">
+    <div class="container">
+      <img src="" alt="Banner">
+      <h1 class="title">Untref School</h1i>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, dignissimos ipsa. Earum quas quos
+          neque?
+        </p>
+        <a href="#contact" class="btn btn-dark">Contacto</a>
+    </div>
+  </div>
+  </header>
+
+  <main>
+    <section id="about-us>
+    <div class=" container">
+      <h2>Quienes somos?</h2>
+      <div class="about-flex">
+        <div class="about-flex image">
+          <img src="" alt="article-image">
+        </div>
+        <div class="about-flex-description">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
+            inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
+            corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
+            temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
+            necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
+            voluptatum.
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="why-choose-us>
+      <div class=" container">
+      <h2>¿Porqué elegirnos?</h2>
+      <div class="about-flex">
+        <div class="about-flex image">
+          <img src="" alt="article-image">
+        </div>
+        <div class="about-flex-description">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
+            inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
+            corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
+            temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
+            necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
+            voluptatum.
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="proposals">
+      <div class="container">
+        <h2>Propuesta educativa</h2>
+        <p class="large">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odit eveniet similique facilis labore qui
+          atque tenetur suscipit modi natus sit distinctio molestias dolores, possimus sunt necessitatibus ipsam
+          architecto consectetur.
+        </p>
+        <div class="services-flex">
+          <img src="" alt="">
+          <h4>Licenciatura en Nutrición</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis accusamus a sunt. Quam veniam
+            optio reprehenderit unde blanditiis eveniet!</p>
+        </div>
+        <div class="services-flex">
+          <img src="" alt="">
+          <h4>Licenciatura en Geografía</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis accusamus a sunt. Quam veniam
+            optio reprehenderit unde blanditiis eveniet!</p>
+        </div>
+        <div class="services-flex">
+          <img src="" alt="">
+          <h4>Licenciatura en Historia</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis accusamus a sunt. Quam veniam
+            optio reprehenderit unde blanditiis eveniet!</p>
+        </div>
+        <div class="services-flex">
+          <img src="" alt="">
+          <h4>Licenciatura en Logistica</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis accusamus a sunt. Quam veniam
+            optio reprehenderit unde blanditiis eveniet!</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="last-news>
+      <div class=" container">
+      <h2>Últimas noticias</h2>
+      <div class="about-flex">
+        <div class="about-flex image">
+          <img src="" alt="article-image">
+        </div>
+        <div class="about-flex-description">
+          <h4>Lorem, ipsum.</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
+            inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
+            corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
+            temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
+            necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
+            voluptatum.
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="last-news2>
+      <div class=" container">
+      <div class="about-flex">
+        <div class="about-flex image">
+          <img src="" alt="article-image">
+        </div>
+        <div class="about-flex-description">
+          <h4>Lorem, ipsum.</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
+            inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
+            corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
+            temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
+            necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
+            voluptatum.
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+  </main>
 
   <footer id="footer-container">
-    <div id="networks"> 
+    <div id="container">
       <h2>Redes sociales</h2>
-        <ul id="#socialNetworks">
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Linkedin</a></li>
-        </ul>
+      <ul id="#socialNetworks">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
     </div>
-    
+
     <div id="map">
-        <h2>Instituto</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8752992957798!2d-58.37892988953356!3d-34.60731467284029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3b098d0fdb%3A0xc5173d52ffc132de!2sUNTREF%20Posgrado!5e0!3m2!1ses-419!2sar!4v1689683595668!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <h2>Instituto</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8752992957798!2d-58.37892988953356!3d-34.60731467284029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3b098d0fdb%3A0xc5173d52ffc132de!2sUNTREF%20Posgrado!5e0!3m2!1ses-419!2sar!4v1689683595668!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div id="contact">
       <h2>Contacto</h2>
@@ -121,9 +185,9 @@
         <li><a href="#">Instagram</a></li>
         <li><a href="#">Facebook</a></li>
         <li><a href="#">Linkedin</a></li>
-    </ul>
-  </div>
-</footer>
+      </ul>
+    </div>
+  </footer>
 
 
   </div>
