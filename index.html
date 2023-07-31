@@ -1,202 +1,218 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./img/UNTREF favicon-16x16.png" />
   <title>UNTREF School</title>
+  <meta name="description" content="Página web de la universidad de tres de febrero">
+  <meta name="keywords" content="universidad,propuestas,carreras,estudio,enseñanza">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Spanish">
+  <meta name="author" content="Lisandro Godoy">
+
+  <link rel="preload" href="./css/normalize.css" as="style">
   <link rel="stylesheet" href="./css/normalize.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="./scss/master.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-  <div class="container">
-    <header id="mainheader">
-      <nav id="navbar">
-        <div class="container"></div>
-        <ul>
-          <li><a href="#about-us">Quienes Somos</a></li>
-          <li><a href="#why-choose-us">¿Porque elegirnos?</a></li>
-          <li><a href="#proposals">Propuesta educativa</a></li>
-          <li><a href="#last-news">Últimas noticias</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-  </div>
-  </nav>
-  <div id="showcase">
-    <div class="container">
-      <img src="" alt="Banner">
-      <h1 class="title">Untref School</h1i>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, dignissimos ipsa. Earum quas quos
-          neque?
-        </p>
-        <a href="#contact" class="btn btn-dark">Contacto</a>
+  <header>
+    <div class="logo-container">
+      <a href="./index.html"><img src="./img/logo-untref.png" class="logo" alt="Logo"></a>
     </div>
-  </div>
   </header>
+  <div class="nav-bg">
+    <nav class="nav-bar container">
+      <a href="#about-internal">Quiénes somos</a>
+      <a href="#about-internal">¿Por qué elegirnos?</a>
+      <a href="#proposals-internal">Propuesta educativa</a>
+      <a href="./contact.html">Contacto</a>
+    </nav>
+  </div>
 
-  <main>
-    <section id="about-us>
-    <div class=" container">
-      <h2>Quienes somos?</h2>
-      <div class="about-flex">
-        <div class="about-flex image">
-          <img src="" alt="article-image">
-        </div>
-        <div class="about-flex-description">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
-            inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
-            corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
-            temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
-            necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
-            voluptatum.
-          </p>
-        </div>
-      </div>
-      </div>
-    </section>
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Universidad <br> Tres de Febrero</h1>
+      <div class="location">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88"
+          viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="11" r="3" />
+          <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+        </svg>
+        <p>Argentina</p>
 
-    <section id="why-choose-us>
-      <div class=" container">
-      <h2>¿Porqué elegirnos?</h2>
-      <div class="about-flex">
-        <div class="about-flex image">
-          <img src="" alt="article-image">
-        </div>
-        <div class="about-flex-description">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
-            inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
-            corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
-            temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
-            necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
-            voluptatum.
-          </p>
-        </div>
       </div>
-      </div>
-    </section>
 
-    <section id="proposals">
-      <div class="container">
-        <h2>Propuesta educativa</h2>
-        <p class="large">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odit eveniet similique facilis labore qui
-          atque tenetur suscipit modi natus sit distinctio molestias dolores, possimus sunt necessitatibus ipsam
-          architecto consectetur.
+      <a class="button" href="./contact.html">Contactar</a>
+  </section>
+
+  <main class="container shadow">
+    <div id="about-internal">
+    <div class="about-container">
+      <section class="about-section">
+        <h2 class="about-title">Quiénes somos</h2>
+        <img src="./img/about.jpg" alt="" class="about-images">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+          Amet eius nihil facere itaque aut odio neque culpa facilis saepe <br>
+          maiores, incidunt deleniti consequatur pariatur? <br>
+          Dicta doloremque dolor aperiam voluptas distinctio <br>
+          laboriosam vitae obcaecati iste esse at laborum
+          Accusantium, ducimus.
         </p>
-        <div class="services-flex">
-          <img src="" alt="">
-          <h4>Licenciatura en Nutrición</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis accusamus a sunt. Quam veniam
-            optio reprehenderit unde blanditiis eveniet!</p>
+      </section>
+
+      <section class="about-section">
+        <h2 class="why-choose-us-title">¿Por qué elegirnos?</h2>
+        <img src="./img/why-choose-us.jpg" alt="" class="about-images">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+          Amet eius nihil facere itaque aut odio neque culpa facilis saepe <br>
+          maiores, incidunt deleniti consequatur pariatur? <br>
+          Dicta doloremque dolor aperiam voluptas distinctio <br>
+          laboriosam vitae obcaecati iste esse at laborum
+          Accusantium, ducimus.
+        </p>
+      </section>
+    </div>
+
+  </div>
+
+    <div id="proposals-internal">
+    <h2>Propuesta educativa</h2>
+
+    <div class="proposals">
+      <section class="proposal">
+        <h3>Licenciatura en Nutrición</h3>
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-salad" width="44" height="44"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#F9F9F9" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M4 11h16a1 1 0 0 1 1 1v.5c0 1.5 -2.517 5.573 -4 6.5v1a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-1c-1.687 -1.054 -4 -5 -4 -6.5v-.5a1 1 0 0 1 1 -1z" />
+            <path d="M18.5 11c.351 -1.017 .426 -2.236 .5 -3.714v-1.286h-2.256c-2.83 0 -4.616 .804 -5.64 2.076" />
+            <path d="M5.255 11.008a12.204 12.204 0 0 1 -.255 -2.008v-1h1.755c.98 0 1.801 .124 2.479 .35" />
+            <path d="M8 8l1 -4l4 2.5" />
+            <path d="M13 11v-.5a2.5 2.5 0 1 0 -5 0v.5" />
+          </svg>
         </div>
-        <div class="services-flex">
-          <img src="" alt="">
-          <h4>Licenciatura en Geografía</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis accusamus a sunt. Quam veniam
-            optio reprehenderit unde blanditiis eveniet!</p>
-        </div>
-        <div class="services-flex">
-          <img src="" alt="">
-          <h4>Licenciatura en Historia</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis accusamus a sunt. Quam veniam
-            optio reprehenderit unde blanditiis eveniet!</p>
-        </div>
-        <div class="services-flex">
-          <img src="" alt="">
-          <h4>Licenciatura en Logistica</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veritatis accusamus a sunt. Quam veniam
-            optio reprehenderit unde blanditiis eveniet!</p>
+        <p>Aliquid atque delectus tenetur nesciunt, nemo hic unde a dolorem dolores ipsam perspiciatis
+          provident
+          itaque facilis molestiae doloribus, modi nulla, eum tempora?</p>
+      </section>
+
+      <section class="proposal">
+        <h3>Licenciatura en Geografía</h3>
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="44" height="44"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#F9F9F9" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+            <path d="M3.6 9h16.8" />
+            <path d="M3.6 15h16.8" />
+            <path d="M11.5 3a17 17 0 0 0 0 18" />
+            <path d="M12.5 3a17 17 0 0 1 0 18" />
+          </svg>
         </div>
 
+        <p>Aliquid atque delectus tenetur nesciunt, nemo hic unde a dolorem dolores ipsam perspiciatis provident
+          itaque facilis molestiae doloribus, modi nulla, eum tempora?</p>
+      </section>
+
+      <section class="proposal">
+        <h3>Licenciatura en Historia</h3>
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-books" width="44" height="44"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M5 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+            <path d="M9 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+            <path d="M5 8h4" />
+            <path d="M9 16h4" />
+            <path
+              d="M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041z" />
+            <path d="M14 9l4 -1" />
+            <path d="M16 16l3.923 -.98" />
+          </svg>
+        </div>
+
+        <p>Aliquid atque delectus tenetur nesciunt, nemo hic unde a dolorem dolores ipsam perspiciatis provident
+          itaque facilis molestiae doloribus, modi nulla, eum tempora?</p>
+      </section>
+    </div> <!-- closetag .proposals -->
+
+  </div>
+
+    <section class="map-container">
+      <h2>Aquí nos encontramos</h2>
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8752992957798!2d-58.37892988953356!3d-34.60731467284029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3b098d0fdb%3A0xc5173d52ffc132de!2sUNTREF%20Posgrado!5e0!3m2!1ses-419!2sar!4v1689683595668!5m2!1ses-419!2sar"
+          width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="social-container">
+        <section class="network">
+          <div class="icons-networks">
+            <a href="https://instagram.com/1amlilg?igshid=NGExMmI2YTkyZg=="><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#273746" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" />
+              </svg> </a>
+          </div>
+        </section>
+
+        <section class="network">
+          <div class="icons-networks">
+            <a href="https://www.facebook.com/lisan.godoy"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#273746" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg> </a>
+          </div>
+        </section>
+
+        <section class="network">
+          <div class="icons-networks">
+            <a href="https://www.linkedin.com/in/lisandrogodoy"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#273746" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                <path d="M8 11l0 5" />
+                <path d="M8 8l0 .01" />
+                <path d="M12 16l0 -5" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+              </svg> </a>
+          </div>
+        </section>
       </div>
     </section>
 
-    <section id="last-news>
-      <div class=" container">
-      <h2>Últimas noticias</h2>
-      <div class="about-flex">
-        <div class="about-flex image">
-          <img src="" alt="article-image">
-        </div>
-        <div class="about-flex-description">
-          <h4>Lorem, ipsum.</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
-            inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
-            corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
-            temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
-            necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
-            voluptatum.
-          </p>
-        </div>
-      </div>
-      </div>
-    </section>
 
-    <section id="last-news2>
-      <div class=" container">
-      <div class="about-flex">
-        <div class="about-flex image">
-          <img src="" alt="article-image">
-        </div>
-        <div class="about-flex-description">
-          <h4>Lorem, ipsum.</h4>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolorum. Eaque nisi ut vitae
-            inventore commodi maiores debitis quos, tempora quasi quia cumque nam sed, optio adipisci veniam quae atque
-            corrupti deleniti quas omnis voluptates tempore veritatis eos. Dignissimos deserunt placeat corrupti nemo
-            temporibus ducimus molestias saepe harum, error asperiores quaerat numquam, cum soluta veniam enim
-            necessitatibus iure vitae. Blanditiis atque odio asperiores unde quas laboriosam sunt incidunt sint
-            voluptatum.
-          </p>
-        </div>
-      </div>
-      </div>
-    </section>
+    <!-- <div id="start-page">
+          <a href="#container"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
+      </div> -->
+
+    <footer id="copyright">
+      <p>Todos los derechos reservados. Lisandro Godoy &copy;</p>
+    </footer>
 
   </main>
 
-  <footer id="footer-container">
-    <div id="container">
-      <h2>Redes sociales</h2>
-      <ul id="#socialNetworks">
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Linkedin</a></li>
-      </ul>
-    </div>
 
-    <div id="map">
-      <h2>Instituto</h2>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8752992957798!2d-58.37892988953356!3d-34.60731467284029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb3b098d0fdb%3A0xc5173d52ffc132de!2sUNTREF%20Posgrado!5e0!3m2!1ses-419!2sar!4v1689683595668!5m2!1ses-419!2sar"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div id="contact">
-      <h2>Contacto</h2>
-      <ul id="contactList">
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Linkedin</a></li>
-      </ul>
-    </div>
-  </footer>
-
-
-  </div>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
